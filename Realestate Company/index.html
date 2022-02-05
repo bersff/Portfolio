@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	
+	<!--my css-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Hello, world!</title>
+
+</head>
+
+<!--Body-->
+
+<body>
+
+	<!--Header-->
+
+	<div class="header_wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="logo_body d-flex justify-content-between">
+					<div class="logo_left align-items-center">
+						<div class="logo_img">
+							<img src="img/LogoLayer.svg" alt="Logo">
+						</div>
+						<div class="logo_title">
+							<h1>Realestate Company</h1>
+							<p>Lorem Ipsum is simply dummy text</p>
+						</div>
+					</div>
+					<div class="logo_right align-self-end">
+						<p>Call us: (214) 227-7669</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  	<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
+			  		<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  		</li>
+			  		<li class="nav-item">
+						<a class="nav-link" href="#"> Our Story</a>
+			  		</li>
+			  		<li class="nav-item">
+						<a class="nav-link" href="#">Tenant</a>
+			  		</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Owner</a>
+			  		</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact us</a>
+			  		</li>
+				</ul>
+				<ul class="navbar-nav mb-2 mb-lg-0 ps-3">
+					<li class="nav-item">
+					  	<a class="nav-link" href="#">Sign in</a>
+					</li>
+					<span class="align-self-center">/</span>
+					<li class="nav-item">
+					  	<a class="nav-link" href="#">Sign up</a>
+					</li>
+			  	</ul>
+		  	</div>
+		</div>
+	</nav>
+
+	<!--Main-->
+
+	<div class="main_wrapper">
+		<div class="container">
+			<div class="row main_body justify-content-md-center">
+				<div class="col-lg-6 mb-3">
+					<div class="main_body_slider mt-5">
+						<div class="card card_slider" style="width: 50rem;">
+							<img src="img/MainLayer.png" class="card-img-top" alt="...">
+							<div class="card-body-slider pt-3 pb-3 pe-2 ps-3">
+								<h5 class="card-title">Lorem Ipsum is simply dummy text of </h5>
+								<p class="slider_card-text">We work with investors to make managing your investments easy!</p>
+							</div>
+						</div>
+						<div class="card" style="width: 50rem;">
+							<img src="img/MainLayer.png" class="card-img-top" alt="...">
+							<div class="card-body-slider pt-3 pb-3 pe-2 ps-3">
+								<h5 class="card-title">Lorem Ipsum is simply dummy text of </h5>
+								<p class="card-text">We work with investors to make managing your investments easy!</p>
+							</div>
+						</div>
+						<div class="card" style="width: 50rem;">
+							<img src="img/MainLayer.png" class="card-img-top" alt="...">
+							<div class="card-body-slider pt-3 pb-3 pe-2 ps-3">
+								<h5 class="card-title">Lorem Ipsum is simply dummy text of </h5>
+								<p class="card-text">We work with investors to make managing your investments easy!</p>
+							</div>
+						</div>
+						<div class="card" style="width: 50rem;">
+							<img src="img/MainLayer.png" class="card-img-top" alt="...">
+							<div class="card-body-slider pt-3 pb-3 pe-2 ps-3">
+								<h5 class="card-title">Lorem Ipsum is simply dummy text of </h5>
+								<p class="card-text">We work with investors to make managing your investments easy!</p>
+							</div>
+						</div>
+						<div class="card" style="width: 50rem;">
+							<img src="img/MainLayer.png" class="card-img-top" alt="...">
+							<div class="card-body-slider pt-3 pb-3 pe-2 ps-3">
+								<h5 class="card-title">Lorem Ipsum is simply dummy text of </h5>
+								<p class="card-text">We work with investors to make managing your investments easy!</p>
+							</div>
+						</div>
+					  </div>
+				</div>
+			  	
+			  	<div class="col-lg-6 mt-5">
+				  	<div id="tabs">
+						<div class="tab-panels">
+							<ul class="tabs">
+								<li data-panel-name="panel1" class="tabs_01 active ps-5 pe-4">Tenants</li>
+								<li data-panel-name="panel2" class="tabs_02">Oweners</li>
+							</ul>
+
+							<div id="panel1" class="panel active">
+								<form action="#">
+									<p class="form_search_title ps-3">Address, Suburbs, Postcodes, or Regions</p>
+									<input type="adress" class="form_adress ms-3 ps-4 mb-2" placeholder="Example: Wichita Falls, Texas 76301">
+									<br><input type="checkbox" class="input_checkbox mt-2 mb-2 me-4 ms-4">Include surrounding suburbs
+									<div class="select_one d-flex">
+										<br><span class="mt-4 ms-4 me-3">Property Type :</span>
+										<select class="form-select input_choice mt-2 mb-2 ms-4" aria-label="Default select example">
+											<option selected>Select one</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+									  	</select>
+									</div>
+									<div class="select_two d-flex">
+										<br><span class="mt-4 pe-3 ps-5">Bedrooms :</span>
+										<select class="form-select input_choice mt-2 mb-2 ms-4" aria-label="Default select example">
+											<option selected>Select one</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+									  	</select>
+									</div>
+									<br><button type="button" class="form_search_btn mt-2">Search</button>
+								</form>
+							</div>
+							<div id="panel2" class="panel">
+								Content for Panel 2 here
+							</div>
+						</div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Home-->
+
+	<div class="home_wrapper">
+		<div class="container-fluid">
+			<div class="row justify-content-md-center">
+				<div class="col-sm-3 home_card">
+					<div class="card">
+						<div class="card-body">
+							<div class="card_title d-flex">
+								<img src="img/home.svg" alt="">
+								<h5 class="align-self-end ps-2">Buy a home</h5>
+							</div>
+						  	<p class="card-text pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 home_card">
+					<div class="card">
+						<div class="card-body">
+							<div class="card_title d-flex">
+								<img src="img/home.svg" alt="">
+								<h5 class="align-self-end ps-2">Sell a home</h5>
+							</div>
+						  	<p class="card-text pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 home_card">
+					<div class="card">
+						<div class="card-body">
+							<div class="card_title d-flex">
+								<img src="img/home.svg" alt="">
+								<h5 class="align-self-end ps-2">Rent a home</h5>
+							</div>
+							<p class="card-text pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="home_card_wrapper pt-3 pb-3">
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-md-center mx-auto card_col">
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-3">
+					<img src="img/CardLayer.png" class="card-img-top home_card_img" alt="...">
+					<div class="home_card_body d-flex justify-content-between align-items-center justify-content-md-center">
+						<div class="card_left">
+							<h5 class="card-title">4605 Bayonne Court</h3>
+							<p class="card-text">Arlington, TX 76016</p>
+						</div>
+						<div class="card_right ps-3">
+							<span><img src="img/CardSearch.svg" class="" alt=""></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--form Footer-->
+
+	<div class="form_footer_wrapper pt-3">
+		<div class="container-fluid">
+			<div class="row form_footer_row">
+				<div class="col-lg-6">
+					<form class="form_footer_left">
+						<label class="form_label_left ps-3 pt-2 pb-2">Member login</label>
+						<div class="form_input_left d-flex ms-3">
+							<div class="mb-3 pt-3 pe-3">
+								<input type="text" class="form-control" id="exampleInputEmail1" placeholder="User name" aria-describedby="emailHelp">
+						  	</div>
+							<div class="mb-3 pt-3">
+								<input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+						  	</div>
+						  	<button type="submit" class="btn btn-primary ms-4 mt-3 me-3">Login</button>
+						</div>
+					</form>
+					<div class="form_footer_subscribe">
+						<button class="mt-3 mb-3"><img src="img/signup.png" alt=""></button>
+					</div>
+				</div>
+				<div class="col-lg-6 ps-4">
+					<form class="form_footer_right">
+						<label class="form_label_right ps-4 pt-2 pb-2">Subscribe to our weekly newsletter</label>
+						<div class="form_input_right d-flex ps-4">
+							<div class="mb-3 pt-3">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="email address" aria-describedby="emailHelp">
+						  	</div>
+						  	<button type="submit" class="btn btn-primary ms-4 mt-3">Subscribe</button>
+						</div>
+					</form>
+					<div class="footer_social mt-3 mx-auto">
+						<img class=" me-3 ms-3" src="img/facebook.svg" alt=""><img class="me-3" src="img/twitter.svg" alt=""><img class="" src="img/google +.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Footer-->
+
+<footer>
+	<div class="footer_wrapper">
+		<div class="container-fluid">
+			<div class="row footer_row">
+				<div class="col-sm-2">
+					<ul><h3 class="mb-3 mt-4">About Us</h3>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Why us</a></li>
+						<li><a href="#">Customer Stories</a></li>
+						<li><a href="#">Press Resources</a></li>
+						<li><a href="#">Press Releases</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<ul><h3 class="mb-3 mt-4">Proparties</h3>
+						<li><a href="#">Rent a home</a></li>
+						<li><a href="#">Lease a home</a></li>
+						<li><a href="#">Buy a home</a></li>
+						<li><a href="#">Sell a home</a></li>
+						<li><a href="#">Ask advices</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-5 footer_text_3">
+					<h3 class="mt-4">Costamer Testimonials<button><img src="img/ArrowLeft.svg" alt=""></button> <button type="button"><img src="img/ArrowRight.svg" alt=""></button></h3>
+					<p class="pt-3">Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industr
+						standard dummy text ever since the 1500s, 
+						when an unknown printer took a</p>
+					<span>Lorem Ipsum is simply</span><br>
+					<span>Owner, Lorem Ipsum</span>
+				</div>
+				<div class="col-sm-3 mt-3 ps-5">
+					<div class="logo_left align-items-center">
+						<div class="logo_img">
+							<img src="img/LogoLayer.svg" alt="Logo">
+						</div>
+						<div class="logo_title">
+							<h3>Realestate Company</h3>
+							<p class="mt-5">© cssauthor.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
