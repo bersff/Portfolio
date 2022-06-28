@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<!--my css-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Hello, world!</title>
+
+</head>
+
+<!--Body-->
+
+<body>
+
+	<!--HEADER-->
+
+	<div class="main_wrapper">
+		<div class="container">
+			<div class="row">
+				<header>
+					<div class="nav_menu">
+						<a href="#" class="nav_logo"><img src="img/LOGO.svg" alt="Логотип"></a>
+						<nav class="nav_body">
+							<ul id="nav_link" class="nav_link nav_menu">
+								<li class=""><a href="#">ГЛАВНАЯ</a></li>
+								<li class=""><a href="#">МЕНЮ</a></li>
+								<li class=""><a href="#">О НАС</a></li>
+								<li class=""><a href="#">БРОНЬ</a></li>
+								<li class="cart_border"><a href="#"><img src="img/cart.svg" alt="Корзина"></a></li>
+								<li class="nav_tel">
+									<a href="tel:+999-888-76-54" class="tel_img"><img src="img/phone.svg" alt="">+999-888-76-54</a>
+									<p>Свяжитесь с нами для<br> бронирования</p>
+								</li>
+								<li class="nav_button__order"><a href="#">ЗАКАЗ СТОЛИКА</a></li>
+							</ul>
+							<div id="nav_burger" class="nav_burger">
+								<span onclick="onClickMenu();"></span>
+							</div>
+						</nav>
+					</div>
+				</header>
+				<div class="main_body">
+					<h1 class="main_title">Добро пожаловать в <span>Наш ресторан</span></h1>
+					<div class="main_subtitle">
+						<img src="img/break.svg" alt="">
+						<p class="main_subtitle">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+						<img src="img/break.svg" alt="">
+					</div>
+					<a href="#" class="main_btn">VIEW MENU</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!------------------------------------------------------------->
+
+	<!--HISTORY-->
+
+	<div class="history_wrapper">
+		<div class="card_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="card_body">
+						<img src="img/chicken.png" alt="">
+						<h3 class="card_title">Магическая <span>Атмосфера</span></h3>
+						<p class="card_subtitle">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+					</div>
+					<div class="card_body">
+						<img src="img/chicken.png" alt="">
+						<h3 class="card_title">Лучшее качество <span>Еды</span></h3>
+						<p class="card_subtitle">Качество нашей Еды - отменное!</p>
+					</div>
+					<div class="card_body">
+						<img src="img/chicken.png" alt="">
+						<h3 class="card_title">Недорогая <span>Еда</span></h3>
+						<p class="card_subtitle">Стоимость нашей Еды зависит только от ееколичества. Качествовсегда на высоте!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="our_history">
+			<div class="our_history__wrapper container">
+				<div class="history_left">
+					<h2 class="history_title">Наша <span>История</span></h2>
+					<p class="history_subtitle">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+					<div class="our_history__body">
+						<div class="our_history__card">
+							<p class="history_card__title">93</p>
+							<p class="history_card__subtitle">Напитки</p>
+						</div>
+						<div class="our_history__card">
+							<p class="history_card__title">206</p>
+							<p class="history_card__subtitle">Еда</p>
+						</div>
+						<div class="our_history__card">
+							<p class="history_card__title">71</p>
+							<p class="history_card__subtitle">Закуски</p>
+						</div>
+					</div>
+				</div>
+				<div class="history_right">
+					<img src="img/images.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------------->
+
+	<!--PARTY-->
+
+	<div class="party_wrapper">
+		<div class="party_body">
+			<div class="container">
+				<div class="row">
+					<div class="party_text">
+						<h2>Отпразднуйте в одном из самых лучших ресторанов.</h2>
+						<p>Только в этом месяце бизнес-ланч от 250 ₽</p>
+					</div>
+					<a href="#" class="party_btn">ЗАКАЗ СТОЛИКА</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------------->
+
+	<!--MENU-->
+
+	<div class="menu_wrapper">
+		<div class="menu_body">
+			<div class="container">
+				<div class="row">
+					<h2 class="menu_title">Наши <span>Блюда</span></h2>
+					<div class="menu_left">
+						<img src="img/pizza-1.png" alt="">
+					</div>
+					<div class="menu_right">
+						<div class="menu_body__card">
+							<img src="img/burgerItem.png" alt="">
+							<p>Гамбургер мини <span>-----------------------</span> 220 ₽</p>
+						</div>
+						<div class="menu_body__card">
+							<img src="img/burgerItem.png" alt="">
+							<p>Гамбургер мини <span>-----------------------</span> 220 ₽</p>
+						</div>
+						<div class="menu_body__card">
+							<img src="img/burgerItem.png" alt="">
+							<p>Гамбургер мини <span>-----------------------</span> 220 ₽</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------------->
+
+	<!--MENU 2-->
+
+	<div class="menu2_wrapper">
+		<div class="container">
+			<div class="row">
+				<h2 class="menu2_title">Наше меню</h2>
+				<div class="menu2_body">
+					<div class="menu2_body__card">
+						<div class="menu2_img__price">
+							<img src="img/burger.png" alt="">
+							<div class="menu2_price__wrapper">
+								<div class="menu2_price">420</div>
+							</div>
+						</div>
+						<h3 class="menu2_card_title">Гамбургер макси</h3>
+						<p class="menu2_card__subtitle">Максимально толстый<br> слой мяса</p>
+						<a href="#" class="menu2_btn">ЗАКАЗАТЬ</a>
+						<p class="menu2_recommend">RECOMMENDED</p>
+					</div>
+					<div class="menu2_body__card card_hidden">
+						<div class="menu2_img__price">
+							<img src="img/burger.png" alt="">
+							<div class="menu2_price__wrapper">
+								<div class="menu2_price">420</div>
+							</div>
+						</div>
+						<h3 class="menu2_card_title">Гамбургер макси</h3>
+						<p class="menu2_card__subtitle">Максимально толстый<br> слой мяса</p>
+						<a href="#" class="menu2_btn">ЗАКАЗАТЬ</a>
+						<p class="menu2_recommend">RECOMMENDED</p>
+					</div>
+					<div class="menu2_body__card card_hidden">
+						<div class="menu2_img__price">
+							<img src="img/burger.png" alt="">
+							<div class="menu2_price__wrapper">
+								<div class="menu2_price">420</div>
+							</div>
+						</div>
+						<h3 class="menu2_card_title">Гамбургер макси</h3>
+						<p class="menu2_card__subtitle">Максимально толстый<br> слой мяса</p>
+						<a href="#" class="menu2_btn">ЗАКАЗАТЬ</a>
+						<p class="menu2_recommend">RECOMMENDED</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------------------------------->
+
+	<!--reviews-->
+
+	<div class="reviews_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="reviews_slider__wrapper">
+					<div class="reviews_slider_body">
+						<p class="reviews">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+						<img class="reviews_img" src="img/People1.png" alt="">
+						<h4 class="reviews_title">Посетитель</h4>
+						<p class="reviews_name">Николай</p>
+					</div>
+					<div class="reviews_slider_body">
+						<p class="reviews">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+						<img class="reviews_img" src="img/People1.png" alt="">
+						<h4 class="reviews_title">Посетитель</h4>
+						<p class="reviews_name">Николай</p>
+					</div>
+					<div class="reviews_slider_body">
+						<p class="reviews">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+						<img class="reviews_img" src="img/People1.png" alt="">
+						<h4 class="reviews_title">Посетитель</h4>
+						<p class="reviews_name">Николай</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------------->
+
+	<!--GALLERY-->
+	<!-------------------------------------------------------------->
+
+	<!--COOKS-->
+
+	<div class="cooks_wrapper">
+		<div class="container">
+			<div class="row">
+				<h2 class="cooks_title">Наши <span>Повара</span></h2>
+				<div class="cooks_slider__wrapper">
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook1.png" alt="">
+					</div>
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook2.png" alt="">
+					</div>
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook3.png" alt="">
+					</div>
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook1.png" alt="">
+					</div>
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook2.png" alt="">
+					</div>
+					<div class="cooks_slider_body">
+						<img class="cooks_img" src="img/cook3.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-------------------------------------------------------------->
+	
+<footer>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
